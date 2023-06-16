@@ -61,3 +61,5 @@ jobs:
           app-name: 'Edureka-First-App'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8EC92F3E825C40919533FFCC361C1B5F }}
+      - name: 'Run the Python Flask Server'
+        run: 'flask run'
